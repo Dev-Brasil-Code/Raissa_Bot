@@ -65,7 +65,7 @@ async def start(_, message):
 
 
 @kuki.on_message(filters.command("suport"))
-async def suport_, message):
+async def suport(_, message):
     self = await kuki.get_me() 
     busername = self.username
     if message.chat.type!= "private":
