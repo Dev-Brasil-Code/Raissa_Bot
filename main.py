@@ -31,7 +31,7 @@ async def kukiai(client: Client, message: Message):
   msg = message.text
   chat_id = message.chat.id
 
-  Kuki =   requests.get(f"https://kuki-api.tk/api/botname/owner/message={msg}").json()
+  Kuki =   requests.get(f"https://kukiapi.xyz/api/apikey={KUKIIpKP9ma73}/botname/owner/message={msg}").json()
 
   moezilla = f"{Kuki['reply']}"
       
@@ -47,8 +47,11 @@ messagegroup = '''
 Olá, sou a Raissa Chat Bot
 '''
 
-
-
+messagesuport = '''
+Ficou com dúvidas ou encontrou
+algum bug, contate-nos para nos
+Resolver.
+'''
 
 
 @kuki.on_message(filters.command("start"))
@@ -59,7 +62,7 @@ async def start(_, message):
         await message.reply_text(messagegroup)
         return
     else:
-        buttons = [[InlineKeyboardButton("Github", url="https://github.com/Dev-Brasil-Code/Raissa_Bot"),
+        buttons = [[InlineKeyboardButton("🚥Github", url="https://github.com/Dev-Brasil-Code/Raissa_Bot"),
                     ]]
         await message.reply_text(messageprivate, reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -69,10 +72,10 @@ async def suport(_, message):
     self = await kuki.get_me() 
     busername = self.username
     if message.chat.type!= "private":
-        await message.reply_text(messagegroup)
+        await message.reply_text(messagesuport)
         return
     else:
-        buttons = [[InlineKeyboardButton("Suport", url="https://t.me/admclaynet")
+        buttons = [[InlineKeyboardButton("👷Suport", url="https://t.me/admclaynet")
                     ]]
         await message.reply_text(messageprivate, reply_markup=InlineKeyboardMarkup(buttons))
 
