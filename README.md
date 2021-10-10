@@ -1,6 +1,6 @@
-# Cerca de
+# Sobre Raissa
 Raissa é um chatbot de IA avançado que
-tem a capacidade de vários idiomas, contextualizar mensagens e responder na mesma moeda. Ela se adaptará a conversas com vários usuários; RPG, consolidando, argumentar
+tem a capacidade de vários idiomas, contextualizar mensagens e responder na mesma moeda. Ela se adaptará a conversas com vários usuários; RPG, consolidando, argumentar as pessoas com expressao de que elas naos estão sozinhos.
 ## Como hospedar
 A maneira mais fácil de implantar este bot
 • Insira o seu ```API_ID```,```API_HASH``` And ```TOKEN```.
