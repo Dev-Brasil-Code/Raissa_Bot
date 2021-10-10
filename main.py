@@ -64,6 +64,17 @@ async def start(_, message):
         await message.reply_text(messageprivate, reply_markup=InlineKeyboardMarkup(buttons))
 
 
+@kuki.on_message(filters.command("suport"))
+async def suport_, message):
+    self = await kuki.get_me() 
+    busername = self.username
+    if message.chat.type!= "private":
+        await message.reply_text(messagegroup)
+        return
+    else:
+        buttons = [[InlineKeyboardButton("Suport". url="https://t.me/admclaynet")
+                    ]]
+        await message.reply_text(messageprivate,
 
 
 kuki.run()
