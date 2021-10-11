@@ -25,7 +25,7 @@ kuki = Client(
     & filters.reply
     & ~filters.bot
     & ~filters.edited,
-    group=2,
+    group=10,
 )
 async def kukiai(client: Client, message: Message):
   msg = message.text
