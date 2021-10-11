@@ -77,7 +77,7 @@ async def suport(_, message):
     else:
         buttons = [[InlineKeyboardButton("👷Suport", url="https://t.me/admclaynet")
                     ]]
-        await message.reply_text(messageprivate, reply_markup=InlineKeyboardMarkup(buttons))
+        await message.reply_text(messagesuport, reply_markup=InlineKeyboardMarkup(buttons))
 
 
 kuki.run()
