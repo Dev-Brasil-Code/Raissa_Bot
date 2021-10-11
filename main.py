@@ -11,7 +11,7 @@ API_ID = os.environ.get("API_ID", None)
 API_HASH = os.environ.get("API_HASH", None) 
 TOKEN = os.environ.get("TOKEN", None) 
 BOT_ID = os.environ.get("BOT_ID", None)
-
+KUKI_KEY = os.environ.get("KUKI_KEY", None)
 
 kuki = Client(
       "Raissa",
