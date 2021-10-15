@@ -1,0 +1,25 @@
+{
+    "name": "RaissaIABot",
+    "description": "Olá, sou @raussaiabot, exemplo ",
+    "logo": "https://telegra.ph/file/a54ed27b0dc3fc3e439fd.jpg",
+    "repository": "https://github.com/Dev-Brasil-Code/Raissa_Bot",
+    "env": {
+        "token": {
+            "description": "telegram bot token aqui",
+            "required": true
+        },
+        "name": {
+            "description": "Digite o nome do bot",
+            "required": true
+        },
+        "owner": {
+            "description": "Digite o nome dono do bot ",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}

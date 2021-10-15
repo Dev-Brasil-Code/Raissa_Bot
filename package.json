@@ -1,0 +1,22 @@
+{
+  "name": "Telegram-Kuki-Bot",
+  "version": "0.0.2",
+  "description": "powerfull telegram Chatbot",
+  "main": "kuki.js",
+  "scripts": {
+    "start": "node kuki.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Brasil-Code/Raissa_Bot"
+  },
+  "author": "Dev-Brasil-Code",
+  "bugs": {
+    "url": "https://github.com/Dev-Brasil-Code/Raissa_Bot/issues"
+  },
+  "homepage": "https://github.com/Dev-Brasil-Code/Raissa_Bot#readme",
+  "dependencies": {
+    "slimbot": "^5.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
